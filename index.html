@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pirat Partiet</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Playfair+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <nav
+      id="mainNavbar"
+      class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
+    >
+      <a href="#showcase" class="navbar-brand">
+        <img id="piratlogo" src="./img/piratlogo.png" alt="pirat logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navLinks"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#section-c" class="nav-link">PIRATKODEKSEN</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">POLITIKKEN</a>
+          </li>
+          <li class="nav-item">
+            <a href="#section-e" class="nav-link">NYHETER</a>
+          </li>
+          <li class="nav-item">
+            <a href="#section-d" class="nav-link">KONTAKT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header Showcase -->
+    <header id="showcase" class="grid">
+      <div class="bg-image"></div>
+      <div class="content-wrap">
+        <h1 class="headertext">
+          <img
+            id="headerimg"
+            src="./img/motto_logo_nilz_svartBakgrunn-_total-trans_mini.png"
+            alt="Pirat Pariet, din fremtid"
+          />
+          Demokratiets fremtid
+        </h1>
+        <p id="headerparagraph">
+          Piratpartiet mener kunnskap og kultur skal deles og gjenbrukes, at
+          individets rettigheter skal forsvares, og at Internett muliggjør en
+          mer direkte og demokratisk politisk modell.
+        </p>
+        <a href="#section-b" class="btn">Les mer</a>
+      </div>
+    </header>
+
+    <!-- Main Area -->
+    <main id="main">
+      <!-- Section A -->
+      <section id="section-a" class="grid">
+        <div class="content-wrap">
+          <h2 class="content-title"></h2>
+          <div class="content-text">
+            <!--Form-->
+            <form>
+              <div class="container">
+                <h1>Bli en Pirat</h1>
+
+                <hr />
+
+                <label for="name"><b>Fullt navn (påkrevd)</b></label>
+                <input
+                  type="text"
+                  placeholder="Ola Nordmann"
+                  name="email"
+                  id="email"
+                  required
+                />
+
+                <label for="email"><b>E-post</b></label>
+                <input
+                  type="text"
+                  placeholder="ola@nordmann.no"
+                  name="email"
+                  id="email"
+                  required
+                />
+                <p>
+                  <input type="checkbox" /> Ja, jeg ønsker å motta nyhetsbrev og
+                  informasjon fra Piratpariet.
+                </p>
+                <hr />
+
+                <p>
+                  Ved å registrere deg godtar du våre
+                  <a href="#">retningslinjer</a>.
+                </p>
+                <button type="submit" class="registerbtn">Register</button>
+              </div>
+              <p id="formaside">
+                Fri kultur. <br />
+                En viktig ressurs for utdanning og kreativitet.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section B -->
+      <section id="section-b" class="grid">
+        <ul>
+          <li>
+            <div class="card">
+              <img src="./img/ungepirater.JPG" alt="Unge Pirater Logo" />
+              <div class="card-content">
+                <h3 class="card-title">Den nye loven vil svekke demokratiet</h3>
+                <p>
+                  Nå må vi sammen forsvare personvernet vårt.«Enhver er uskyldig
+                  inntil det motsatte er bevist.» Dette er et demokratisk
+                  prinsipp som vi verdsetter i Norge. Om den nye
+                  etterretningsloven blir vedtatt, blir vi frarøvet denne
+                  retten.
+                </p>
+                <a href="#">Les mer</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <img src="./img/Whitagram-Image.JPG" alt="Pirat Partiet Logo" />
+              <div class="card-content">
+                <h3 class="card-title">En visjon om økonomisk frie nordmenn</h3>
+                <p>
+                  Når nordmenn styres.Hvis piratpolitikk handler om en ting, så
+                  er det for meg frihet.I dag lever vi i et samfunn hvor mye av
+                  økonomien styres ovenfra.Enten det er store nasjonale og
+                  internasjonale selskaper.
+                </p>
+                <a href="#">Les mer</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <img src="./img/piratpodcast.JPG" alt="Pirat Podcast Logo" />
+              <div class="card-content">
+                <h3 class="card-title">MEDLEMSPODKAST: PIRATFOLKA</h3>
+                <p>
+                  «Piratfolka» er en medlemsskapt podkast om piratpolitikk i
+                  Norge og internasjonalt.
+                  <i>Offisiell podkast fra sentralstyret kommer senere.</i>
+                </p>
+                <br />
+                <br />
+                <a href="https://www.piratpartiet.no/piratfolka/"
+                  >Finn alle episoder her
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <div class="card">
+              <img
+                src="./img/farger.JPG"
+                alt="Pirat Paritet logo med farger "
+              />
+              <div class="card-content">
+                <h3 class="card-title">
+                  I dag er det et år til stortingsvalget 2021.
+                </h3>
+                <p>
+                  Fornuft - Frihet - Fremgang <br />
+                  Bli medlem! Vipps 99 kroner til #118822
+                </p>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <a href="#">Les mer</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <img
+                src="./img/stilltilvalg.JPG"
+                alt="Illustrasjon av mennesker med timeglass"
+              />
+              <div class="card-content">
+                <h3 class="card-title">Bli vår kandidat ?</h3>
+                <p>
+                  Det er fremdeles muligheter for å stille som kandidat til
+                  valgliste(r) til kommune- og fylkestingsvalget i år.
+                  Piratpartiet står for: - fri kultur og kunnskap - åpenhet og
+                  ærlighet - rett til privatliv og nei til overvåkning -
+                  menneskerettigheter og rettferdighet - reform av demokratiet
+                  og kamp mot korrupsjon - blokkuavhengige løsninger og
+                  innovasjon
+                </p>
+                <a href="#">Les mer</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <img
+                src="./img/piratvalg.JPG"
+                alt="Stemmeseddel for piratpartiet"
+              />
+              <div class="card-content">
+                <h3 class="card-title">
+                  Piratpartiet gjorde brakvalg på skolene
+                </h3>
+                <p>
+                  Ungdommen har allerede omfavnet partiet.Til tross for partiets
+                  svært unge alder viser det seg at det allerede er ganske så
+                  populært, spesielt blant den yngre garden. Nå som skolevalget
+                  er avholdt kan Piratpartiet nemlig melde om overraskende høy
+                  oppslutning hos elevene.
+                </p>
+                <a href="#">Les mer</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section C -->
+      <section id="section-e" class="grid skype">
+        <div class="content-wrap">
+          <h1 class="content-title">
+            Optimisme og gjestetaler fra Tsjekkia på digitalt landsmøte
+          </h1>
+          <hr />
+          <img
+            src="/img/Pir-digitalt-landsmøte.png"
+            alt="Skjermbilde fra digitalt landsmøte"
+          />
+          <h2>
+            Piratpartiet har hatt noen digitale ekstraordinære landsmøte på
+            nettforum før, men for første gang har det vært et ordinært
+            landsmøte med videokonferanse.
+          </h2>
+          <p>
+            Styret fikk dramatiske endringer, der den til nå lengstsittende
+            lederen av Piratpartiet, Thomas Gramstad, etter 3 år gav videre
+            stafettpinnen til Svein Mork Dahl, som har vært politisk nestleder i
+            samme perioden. Thomas er fortsatt med i styret som 1. vara.
+            Styremedlem Linda Tørklep rykka opp til vervet som politisk
+            nestleder. Styret fikk ellers to helt nye faste medlemmer, Thomas
+            Bestorp og Morten H. Jakobsen. William T. Svendsen, leder i Unge
+            Pirater, kom inn i styret som andre vara, og til nå faste
+            styremedlem Kari Toreskaas er fremdeles med som 3. vara.
+          </p>
+          <hr />
+          <a href="#">Les mer</a>
+        </div>
+      </section>
+
+      <!-- Section C -->
+      <section id="section-c" class="grid">
+        <div class="content-wrap">
+          <h1 class="content-title">PIRATKODEKSEN</h1>
+          <hr />
+          <h3>I. PIRATER ER FRIE</h3>
+
+          <p>
+            Pirater liker frihet, uavhengighet og selvbestemmelse, og misliker
+            blind lydighet. De står for individets rett til å ta valg basert på
+            informasjon. Pirater tar ansvaret som frihet forutsetter.
+          </p>
+
+          <h3>II. PIRATER RESPEKTERER PRIVATLIV</h3>
+
+          <p>
+            verner om den personlige sfære. De kjemper mot en voksende
+            overvåkings-mani fra både stat og privat næringsliv, fordi det
+            hemmer individets frie utvikling. Et fritt og demokratisk samfunn er
+            umulig uten privatliv og frihet fra overvåkning.
+          </p>
+
+          <h3>III. PIRATER ER KRITISKE</h3>
+
+          <p>
+            Pirater er kreative, nysgjerrige, og slår seg ikke til ro med det
+            bestående. De utfordrer systemer, ser etter svake sider, og finner
+            løsninger. Pirater lærer av sine feil.
+          </p>
+
+          <h3>IV. PIRATER ER RETTFERDIGE</h3>
+
+          <p>
+            De holder sitt ord. Solidaritet er viktig for å oppnå felles mål.
+            Pirater er en motvekt til “la det skure”-holdningen som gjennomsyrer
+            samfunnet, og har mot til å ty til handling når det er nødvendig.
+          </p>
+
+          <h3>V. PIRATER RESPEKTERER LIV</h3>
+
+          <p>
+            Pirater er fredelige. Derfor avviser de dødsstraff og er imot
+            ødeleggelse av vårt miljø. Pirater står for bærekraftig natur- og
+            ressursforvaltning. De aksepterer ikke patent på liv.
+          </p>
+
+          <h3>VI. PIRATER IVRER ETTER KUNNSKAP</h3>
+
+          <p>
+            Tilgang til informasjon, utdannelse, kunnskap og vitenskapelig
+            forskning må være ubegrenset. Pirater støtter fri deling av kultur
+            og fri programvare.
+          </p>
+
+          <h3>VII. PIRATER ER SOLIDARISKE</h3>
+
+          <p>
+            Pirater respekterer menneskelig verdighet. De dedikerer seg til et
+            samfunn forenet i solidaritet, hvor de sterke forsvarer de svake.
+            Pirater står for en objektiv og rettferdig politisk kultur.
+          </p>
+
+          <h3>VIII. PIRATER ER INTERNASJONALE</h3>
+
+          <p>
+            Piratene er en global bevegelse. De tar utbytte av mulighetene som
+            Internett tilbyr, og er derfor i stand til å tenke og handle uten
+            grenser.
+          </p>
+          <hr />
+        </div>
+      </section>
+
+      <!-- Section D -->
+      <section id="section-d" class="grid">
+        <div class="box">
+          <h2 class="content-title">Hold deg oppdatert</h2>
+          <a
+            href="https://www.facebook.com/pirnorge"
+            class="fa fa-facebook"
+            target="blank"
+          ></a>
+          <a
+            href="https://twitter.com/pirnorge"
+            class="fa fa-twitter"
+            target="blank"
+          ></a>
+          <a href="#" class="fa fa-google" target="blank"></a>
+          <a href="#" class="fa fa-linkedin" target="blank"></a>
+          <a href="#" class="fa fa-youtube" target="blank"></a>
+          <a href="#" class="fa fa-instagram" target="blank"></a>
+          <a href="#" class="fa fa-snapchat-ghost" target="blank"></a>
+        </div>
+        <div class="box">
+          <h2 class="content-title">Kontakt oss</h2>
+          <svg
+            width="2em"
+            height="2em"
+            viewBox="0 0 16 16"
+            class="bi bi-telephone"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+            />
+          </svg>
+          <a href="tel:998 732 115">998 732 115</a>
+          <br />
+          <br />
+          <svg
+            width="2em"
+            height="2em"
+            viewBox="0 0 16 16"
+            class="bi bi-envelope"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"
+            />
+          </svg>
+          <a href="mailto:post@piratpartiet.no"> post@piratpartiet.no</a>
+          <br />
+          <br />
+          <svg
+            width="2em"
+            height="2em"
+            viewBox="0 0 16 16"
+            class="bi bi-geo-alt"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+            />
+          </svg>
+          <p>Piratpartiet CSS Mailboks 49 Middelthunsgate 25 0368 Oslo</p>
+        </div>
+      </section>
+
+      <!-- Section C 2 -->
+      <section id="section-c" class="grid">
+        <div class="content-wrap">
+          <a href="#showcase" class="btn">Tilbake til toppen</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="grid">
+      <div></div>
+      <div>
+        Prosjekt av
+        <a href="https://www.linkedin.com/in/tiril-fjell/" target="_blank"
+          >Tiril Fjell</a
+        >
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>

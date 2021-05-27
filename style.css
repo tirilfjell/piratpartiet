@@ -1,0 +1,374 @@
+/* Core Styles */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #000;
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#headerimg {
+  width: 25%;
+}
+
+#piratlogo {
+  width: 40px;
+}
+
+.headertext {
+  font-family: "Playfair Display", serif;
+  font-size: 7rem;
+  margin: 10px;
+}
+
+#headerparagraph {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.3rem;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 1em 0;
+}
+
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+
+.btn {
+  display: inline-block;
+  background: #f59542;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+  margin: 0.5em 0;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background: #eaeaea;
+  color: #333;
+}
+
+/*Navbar*/
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #f59542;
+}
+
+.navbar.scrolled {
+  background: #333;
+  transition: background 500ms;
+}
+
+/* Header Showcase */
+
+#showcase {
+  min-height: 600px;
+  color: #fff;
+  text-align: center;
+}
+
+#showcase .bg-image {
+  position: absolute;
+  background: #333
+    url("https://images.unsplash.com/photo-1590880449155-b54f958ce314?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1615&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+#showcase h1 {
+  padding-top: 100px;
+  padding-bottom: 5px;
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+  padding: 0 1.5em;
+}
+
+/*Form*/
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.container:hover {
+  transform: scale(1.01);
+  transition: 0.5s;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="name"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #f59542;
+  color: white;
+  padding: 16px 20px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+form h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+}
+
+#formaside {
+  font-size: 5rem;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+}
+
+/* Section A */
+
+#section-a {
+  background: #f59542;
+  color: #333;
+  padding-bottom: 2em;
+}
+
+/* Section B */
+
+#section-b {
+  padding: 2em 1em 1em;
+}
+
+#section-b ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#section-b li {
+  margin-bottom: 1em;
+  background: #fff;
+  color: #333;
+  border-radius: 5px;
+}
+
+.card-content {
+  padding: 1.5em;
+}
+
+li:hover {
+  transform: scale(1.01);
+  transition: 0.3s;
+}
+
+/*Section E*/
+#section-e {
+  background: #f59542;
+  color: #fff;
+  padding: 2em;
+  font-family: "Playfair Display", serif;
+}
+
+#section-e h1 {
+  font-size: 2.7rem;
+}
+
+#section-e p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+#section-e a {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 7px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Section C */
+
+#section-c {
+  background: #fff;
+  color: #333;
+  padding: 2em;
+  font-family: "Playfair Display", serif;
+}
+
+/* Section D / Boxes */
+
+#section-d .box {
+  padding: 2em;
+  color: #fff;
+}
+
+#section-d .box:first-child {
+  background: #f59542;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 5rem;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Footer */
+
+#main-footer {
+  padding: 2em;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+#main-footer a {
+  color: #f59542;
+  text-decoration: none;
+}
+
+/* Media Queries */
+
+@media (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 35em)) 1fr;
+  }
+
+  #section-a .content-text form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #section-a .content-text p {
+    padding-top: 0;
+  }
+
+  .content-wrap,
+  #section-b ul {
+    grid-column: 2/4;
+  }
+
+  .box,
+  #main-footer div {
+    grid-column: span 2;
+  }
+
+  #section-b ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #section-b li {
+    width: 31%;
+  }
+}
